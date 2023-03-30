@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .container {
+        margin-bottom: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" method="post">
+        <div class="form">
+          <h2>انشاء حساب</h2>
+          <div class="f1">
+            <label for="name">الاسم:</label><br /><input type="text" />
+          </div>
+          <div class="f1">
+            <label for="age">العمر:</label><br /><input type="number" />
+          </div>
+          <div class="f1">
+            <label for="bloodType">زمرة الدم:</label><br /><input type="text" />
+          </div>
+          <div class="f1">
+            <label for="email">البريد الاكتروني:</label><br /><input type="email" />
+          </div>
+          <div class="f1">
+            <label for="password">كلمة السر:</label><br /><input type="password" />
+          </div>
+          <div class="f1">
+            <label for="phoneNumber">رقم الهاتف:</label><br /><input type="phone" />
+          </div>
+          <div class="f1">
+            <label for="type">نوع الحساب:</label>
+            <label for="rescuer">مسعف</label>
+            <input type="radio" id="rescuer" name="role" value="مسعف" />
+            <label for="patient">مصاب</label>
+            <input type="radio" id="patient" name="role" value="مصاب" />
+          </div>
+          <input class="button" type="submit" value="انشاء حساب" />
+          <div id="link">
+            <span class="unfocused-text">اذا كان لديك حساب من قبل</span><br />
+            <a id="loginLink" href="login.html">تسجيل دخول</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
